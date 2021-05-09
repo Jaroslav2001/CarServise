@@ -71,20 +71,46 @@ nav > ul > li > a:hover{
 
 main{
     margin: auto;
-    max-width: 1100px;
 }
 
 main > h1, h2{
     text-align: center;
 }
 
+p, li{
+    font-size: 24px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 27px;
+}
+
 img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
 }
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+footer > div{
+    border: black solid 3px;
+    padding: 10px;
+    margin: 5px;
+}
+
+article{
+    margin: 5px;
+    padding: 35px;
+    display: block;
+    max-width: 1100px;
+    border: black solid 3px;
+    border-radius: 25px;
+    background-color: rgba(240, 240, 240, 0.3);
 }
