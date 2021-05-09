@@ -27,6 +27,21 @@ body{
     height: 126px;
 }
 
+header > .description > .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .description > .wrapper > .name{
+    margin: 10px;
+}
+
+header > .description > .wrapper > .number{
+    margin: 10px;
+}
+
 nav > ul{
     display: flex;
     flex-direction: row;
