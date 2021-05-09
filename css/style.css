@@ -88,6 +88,12 @@ footer{
     justify-content: center;
 }
 
+footer > div{
+    border: black solid 3px;
+    padding: 10px;
+    margin: 5px;
+}
+
 article{
     margin: 5px;
     padding: 25px;
